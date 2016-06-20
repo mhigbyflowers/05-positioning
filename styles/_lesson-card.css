@@ -11,6 +11,7 @@
    color: $card-green;
  }
  &__subtitle{
+   margin-top:$gutter;
    color:$card-grey-darker;
  }
 }
