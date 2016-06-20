@@ -1,0 +1,17 @@
+.circle{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  background: $card-grey;
+  position: absolute;
+  right:-3rem;
+  top:4rem;
+  p{
+  position: relative;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    bottom:.2rem;
+
+    }
+}

@@ -6,4 +6,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $card-green:#2cb249;
 $card-blue:#098bcd;
 $card-grey:#9698a6;
-$card-grey-darker:darken($card-grey,15%);
+$card-grey-darker:darken($card-grey,5%);
+$gutter:2rem;
+
+@import 'lesson-card';
+@import 'circle';
