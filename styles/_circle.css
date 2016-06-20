@@ -1,16 +1,16 @@
 .circle{
-  width: 6rem;
-  height: 6rem;
+  width: $gutter * 2;
+  height: $gutter * 2;
   border-radius: 100%;
   background: $card-grey;
   position: absolute;
-  right:-3rem;
-  top:4rem;
+  right:$gutter * -1;
+  top:$gutter;
   p{
   position: relative;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size:$circle-font-size;
     bottom:.2rem;
 
     }
