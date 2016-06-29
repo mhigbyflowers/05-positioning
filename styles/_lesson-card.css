@@ -1,0 +1,17 @@
+
+.lesson-card{
+  position: relative;
+  width: $gutter * 10;
+  margin: 50vh auto;
+  transform: translateY(-50%);
+  border: $card-border;
+  border-radius: .5rem;
+  padding: $gutter;
+ &__title{
+   color: $card-green;
+ }
+ &__subtitle{
+   margin-top:$gutter;
+   color:$card-grey-darker;
+ }
+}

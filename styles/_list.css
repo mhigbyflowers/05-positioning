@@ -1,0 +1,17 @@
+.list{
+  margin-bottom: $gutter;
+
+&__item{
+  font-size: $item-font-size;
+  width:$gutter * 4.5;
+  list-style:square;
+  margin:1rem $gutter ;
+  color: $card-grey;
+  border-bottom: $card-border;
+  padding-bottom: .2rem;
+&-color{
+  color: $card-blue;
+}
+
+}
+}
